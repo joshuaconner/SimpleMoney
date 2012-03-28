@@ -22,6 +22,7 @@
 @synthesize emailTextField;
 @synthesize amountTextField;
 @synthesize descriptionTextField;
+@synthesize requestMoneyButton = _requestMoneyButton;
 @synthesize tableView = _tableView;
 
 - (id)initWithCoder:(NSCoder *)decoder {
